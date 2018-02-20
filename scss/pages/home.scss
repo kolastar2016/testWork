@@ -24,3 +24,99 @@
 .carousel-indicators > .active {
 	background: black !important;
 }
+
+.headerMain {
+	background: #486581; 
+	height: 5rem;	
+}
+
+.headerSecond {
+	display: flex; 
+	padding-top: 1rem; 
+	padding-bottom: 0.5rem;
+}
+
+.heroNav {
+	padding-left: 35rem; 
+	margin-top: 0rem; 
+	color: white;
+}
+
+.navUl {
+	display: -ms-flexbox; 
+	display: flex; 
+	-ms-flex-wrap: wrap; 
+	flex-wrap: wrap; 
+	padding-left: 0; 
+	margin-bottom: 0; 
+	list-style: none;
+}
+
+.lable {
+	font-weight: bold; 
+	color: #27ae60; 
+	background: white; 
+	margin: 0 auto; 
+	position: relative; 
+	width: 14rem; 
+	font-size: 3rem;
+	top: -1rem;
+	border: 1rem solid white;
+}
+
+.registerPosition {
+	display: table-caption; 
+	text-align: center;
+}
+
+.registerBackground {
+	border: 8rem solid white; 
+	position: relative; 
+	top: 7rem; 
+	left: 70rem; 
+	background: white;
+}
+
+.registerSelect {
+	font-size: 2rem; 
+	height: 5rem; 
+	width: 30rem; 
+	margin: 1rem; 
+	background: #f3f2f2; 
+	padding-left: 2.5rem;
+}
+
+.emailInput {
+	font-size: 2rem; 
+	height: 5rem; 
+	width: 30rem; 
+	margin: 1rem; 
+	background: #f3f2f2; 
+	padding: 2.5rem;
+}
+
+.passwordInput {
+	font-size: 2rem; 
+	height: 5rem; 
+	width: 30rem; 
+	margin: 1rem; 
+	background: #f3f2f2; 
+	padding: 2.5rem;
+}
+
+// footer
+//---------------------------------------
+
+.footerSection {
+	font-size: 4rem; 
+	background: #486581; 
+	display: block; 
+	text-align: center;	
+}
+
+.footerText {
+	font-size: 2rem; 
+	color: white; 
+	position: relative; 
+	top: -1rem;
+}

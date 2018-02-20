@@ -1,0 +1,76 @@
+.headerBtn {
+	bottom: 1rem; 
+	font-size: 2rem; 
+	float: right; 
+	margin-left: 30rem; 
+	position: relative; 
+	color: white; 
+	height: 4rem; 
+	margin-top: 0.5rem; 
+	background: #27ae60; 
+	text-align: center; 
+	width: 10rem; 
+	border-radius: 0.3em; 
+	padding-top: 0.5rem;
+
+	&:hover {
+		background: #45ed8b;
+	}
+}
+
+.carouselBtn {
+	bottom: 10rem; 
+	font-size: 3rem; 
+	float: right; 
+	margin-left: 30rem; 
+	position: relative; 
+	color: white; 
+	height: 4rem; 
+	background: #27ae60; 
+	text-align: center; 
+	width: 11rem; 
+	border-radius: 0.3em;
+	left: -20rem;
+
+	&:hover {
+		background: #45ed8b;
+	}
+}
+
+.carouselDots {
+	top:-9rem;
+	position: relative;
+	font-size: 5rem;
+}
+
+.carouselDotsNoActive {
+	background: #777777; 
+	opacity: 0.5; 
+	border:none !important; 
+	width: 2rem !important; 
+	height: 2rem !important;
+}
+
+.carouselControle {
+	position: relative; 
+	top: -30rem; 
+	left: 170rem;
+}
+
+.registerBtn {
+	font-size: 1.5rem; 
+	float: right; 
+	color: white; 
+	position: relative; 
+	right: 10rem; 
+	height: 4rem; 
+	margin-top: 2rem; 
+	background: #27ae60; 
+	text-align: center; 
+	width: 10rem; 
+	padding-top: 1rem;
+
+	&:hover {
+		background: #45ed8b;
+	}
+}
