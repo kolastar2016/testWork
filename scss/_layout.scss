@@ -6,6 +6,10 @@ div, p, section, footer, header, aside {
   box-sizing: border-box;
 }
 
+body {
+  color: #241e18;
+  margin: 0;
+}
 
 .section {
   padding-top: $containerVerIndent;
