@@ -1,0 +1,112 @@
+// ---------------------------
+// Helper classes
+// ---------------------------
+
+// Position
+// ---------------------------
+.rel {
+  position: relative;
+}
+
+.abs {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+// Float
+// ---------------------------
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-center {
+  float: center;
+}
+
+// Display Values
+// -------------------------
+
+.inline {
+  display: inline;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+// Aligning Elements
+// -------------------------
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.mobile-text-center {
+  
+  @media (max-width: 992px) {
+    text-align: center;
+  }
+}
+
+// Colors
+// -------------------------
+
+.white {
+  &.white {
+    color: #fff;
+  }
+}
+
+.black {
+  &.black {
+    color: #000;
+  }
+}
+
+.prime {
+  &.prime {
+    color: $prime;
+  }
+}
+
+.second {
+  &.second {
+    color: $second;
+  }
+}
+
+.grey{
+  &.grey{
+    color: grey;
+  }
+}
+
