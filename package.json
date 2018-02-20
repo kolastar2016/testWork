@@ -1,0 +1,30 @@
+{
+  "name": "testforwork",
+  "version": "1.0.0",
+  "description": "worktest",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolastar2016/testWork.git"
+  },
+  "author": "Mikola Shuliak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kolastar2016/testWork/issues"
+  },
+  "homepage": "https://github.com/kolastar2016/testWork#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-size": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0"
+  }
+}
