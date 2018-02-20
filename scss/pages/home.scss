@@ -1,0 +1,26 @@
+
+@import"../global";
+
+// ----------------
+// Home page style
+// ----------------
+
+.section {
+  min-height: 20rem; 
+}
+
+.backgroundImg {
+	height: 60rem;
+	background: url("../../img/plate.jpg") no-repeat center -35rem;
+	background-size: cover;
+}
+
+.headImg {
+	height: 60rem;
+	background: url("../../img/header.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.carousel-indicators > .active {
+	background: black !important;
+}
