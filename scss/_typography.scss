@@ -45,3 +45,28 @@ body {
 .h9 {
   font-size: 1rem; 
 }
+
+.carouselTextOne {
+  position: relative; 
+  top: -20rem;
+  left: 35rem; 
+  font-size: 11rem; 
+  font-family: Courier, monospace; 
+  color: #afafaf;  
+}
+
+.carouselTextTwo {
+  position: relative;  
+  top: -15rem; 
+  left: 35rem; 
+  font-size: 8rem; 
+  font-family: Courier, monospace; 
+  color: #afafaf;
+}
+
+.registerText {
+  background: white; 
+  padding: 2rem; 
+  margin: 0 auto; 
+  position: relative; 
+}
