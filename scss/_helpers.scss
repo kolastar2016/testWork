@@ -93,10 +93,18 @@
 
 .padding-lef-20 {
 	padding-left: 20rem;
+
+    @media (max-width: 480px){
+      padding: 5rem;
+    }
 }
 
 .padding-lef-10 {
 	padding-left: 10rem;
+
+  @media (max-width: 480px){
+    padding: 5rem;
+  }
 }
 
 // Colors
@@ -142,4 +150,43 @@
 .cf {
 	height: 5rem; 
 	width: 17.4rem;
+}
+
+//--------------
+// Mobile style
+//-------------
+
+@media (max-width: 480px) {
+
+  .heroNav {
+    padding: 0 !important;
+  }
+
+  .headerBtn {
+    display: none;
+  }
+
+  .carouselControle {
+    display: none !important;
+  }
+
+  .registerBackground {
+    left: 0px !important;
+  }
+
+  .carouselTextOne {
+    display: none !important;
+  }
+
+  .carouselTextTwo {
+    left: 0px !important;
+  }
+
+  .padding {
+    padding: 0 !important;
+  }
+
+  .margin {
+    margin: 0 !important;
+  }
 }
